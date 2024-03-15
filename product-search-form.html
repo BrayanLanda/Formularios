@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Canasta Virtual</h1>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <h3>Productos</h3>
+                <fieldset>
+                    <label for="productos">Producto</label>
+                    <input type="text" id="productos" placeholder="Nombre Producto" required>
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" required placeholder="password"><br><br>
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Recordarme</label>
+                </fieldset>
+                <fieldset>
+                    <label for="acceso">Código de acceso</label>
+                    <input type="number" required min="1000" max="9999" id="acceso" placeholder="number">
+                    <label for="fecha">Fecha última visita</label>
+                    <input type="date" required><br><br>
+                    <label for="">Hora de acesso</label>
+                   
+                    <input type="time" required>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

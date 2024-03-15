@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <fieldset>
+                <h2>Registro de Usuario</h2>
+                <hr>
+                <fieldset>
+                    <h3>Datos Personales</h3><hr>
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" placeholder="Nombre" required maxlength="50">
+                    <label for="last-name">Apellidos</label>
+                    <input type="text" id="last-name" required placeholder="Apellidos" maxlength="50">
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" id="email" placeholder="Email"><br><br>
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" required minlength="8" placeholder="Password">
+                    <label for="password1">Comfirmar Contraseña</label>
+                    <input type="password" id="password1" required minlength="8"><br><br>
+                    <label for="">Foto de Perfil</label>
+                    <input type="file">
+                    <label for="">Fecha nacimiento</label>
+                    <input type="date" required><br><br>
+                    <label for="">Sexo</label><br>
+                    <input type="radio" id="hombre">
+                    <label for="hombre">Hombre</label><br>
+                    <input type="radio" id="mujer">
+                    <label for="mujer">Mujer</label>
+                </fieldset>
+                <fieldset>
+                    <h3>Datos Residencia</h3><hr>
+                    <label for="pais">Pais Residencia</label>
+                    <select required id="pais">
+                        <option disabled value="">Selecciona Pais</option>
+                        <option value="">Colombia</option>
+                        <option value="">Argentina</option>
+                        <option value="">Peru</option>
+                        <option value="">Ecuador</option>
+                        <option value="">Venezuela</option>
+                    </select>
+                    <label for="city">Ciudad</label>
+                    <input type="text" id="city" required maxlength="50" placeholder="Ejem: Medellin"><br><br>
+                    <label for="codigo">Codigo Postal</label>
+                    <input type="number" required id="codigo">
+                    <label for="mensaje">Biografia</label>
+                    <textarea name="" id="mensaje" maxlength="500" required placeholder="Biografia"></textarea><br><br>
+                    <label for="condiciones">Aceptar Terminos y Condiciones</label>
+                    <input type="checkbox" required id="condiciones"><br><br>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

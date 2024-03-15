@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <center><h1>Solicitud de Préstamo</h1></center>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <h3>Datos Personales</h3>
+                <fieldset>
+                    <label for="name">Nombre del solicitante </label>
+                    <input type="text" id="name" placeholder="Nombre" required>
+                    <label for="apellido">Apellido del solicitante</label>
+                    <input type="text" id="apellido" placeholder="Apellidos" required><br><br>
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" id="email" required placeholder="Email">
+                    <label for="telefono">Teléfono del solicitante</label>
+                    <input type="tel" id="telefono" required placeholder="Telefono"><br><br>
+                    <label for="monto">Monto solicitado</label>
+                    <input type="number" id="monto" required placeholder="$$$" min="100000">
+                    <label for="">Plazo de pago</label>
+                    <input type="date" required><br><br>
+                </fieldset>
+                <fieldset>
+                    <h3>Ingresos</h3>
+                    <label for="">Ingresos mensuales </label>
+                    <input type="number" required placeholder="Ingresos">
+                    <label for="">Gastos mensuales</label>
+                    <input type="number" required placeholder="Gastos"><br><br>
+                    <input type="submit" value="Enviar">
+                 </fieldset>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

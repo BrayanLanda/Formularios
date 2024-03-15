@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <fieldset>
+                <center><h2>Deportes para Todos</h2></center>
+                <hr>
+                <fieldset>
+                    <center><h3>Datos Deportista</h3></center><hr>
+                    <label for="name">Nombre del deportista</label>
+                    <input type="text" id="name" placeholder="Nombre" required maxlength="50">
+                    <label for="last-name">Apellido del deportista</label>
+                    <input type="text" id="last-name" required placeholder="Apellidos" maxlength="50"><br><br>
+                    <label for="email">Correo Electrónico del deportista</label>
+                    <input type="email" id="email" placeholder="Email">
+                    <label for="">Fecha nacimiento</label>
+                    <input type="date" required><br><br>
+                    <label for="">Sexo</label><br>
+                    <input type="radio" id="hombre">
+                    <label for="hombre">Hombre</label><br>
+                    <input type="radio" id="mujer">
+                    <label for="mujer">Mujer</label><br><br>
+                    <label for="pais">País de origen del deportista</label>
+                    <select required id="pais">
+                        <option disabled value="">Selecciona Pais</option>
+                        <option value="">Colombia</option>
+                        <option value="">Argentina</option>
+                        <option value="">Peru</option>
+                        <option value="">Ecuador</option>
+                        <option value="">Venezuela</option>
+                        <option value="">Otro</option>
+                    </select>
+                    <label for="city">Ciudad de origen del deportista</label>
+                    <input type="text" id="city" required placeholder="Ejem: Medellin"><br><br>
+                    <label for="codigo">Código postal del deportista</label>
+                    <input type="number" required id="codigo">
+                    <label for="city">Deporte que practica</label>
+                    <input type="text" id="city" required placeholder="Ejem: Running"><br><br><hr>
+                    <label for="asunto">¿Desea recibir notificaciones?</label><br>
+                    <input type="radio" id="no">
+                    <label for="si">Si</label><br>
+                    <input type="radio" name="" id="no">
+                    <label for="no">No</label><br><br>
+                    <label for="asunto">¿Desea recibir promociones?</label><br>
+                    <input type="radio" id="no">
+                    <label for="si">Si</label><br>
+                    <input type="radio" name="" id="no">
+                    <label for="no">No</label><br><br>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
