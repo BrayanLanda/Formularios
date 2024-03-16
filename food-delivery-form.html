@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <fieldset>
+                <fieldset>
+                    <center><h3>Pide tu comida rapido y facil</h3></center><hr>
+                    <label for="name">Nombre del cliente </label>
+                    <input type="text" id="name" placeholder="Nombre" required maxlength="50">
+                    <label for="telefono">Teléfono del cliente </label>
+                    <input type="tel" id="telefono" placeholder="Telefono" required><br><br>
+                    <label for="Correo">Correo Electrónico del cliente</label>
+                    <input type="email" id="correo" placeholder="Ingresa correo" required>
+                    <label for="direccion">Dirección de entrega </label>
+                    <input type="text" id="direccion" placeholder="Residencia" required><br><br>
+                    <label for="">Hora de entrega</label>
+                    <input type="time" name="" id="">
+                    <label for="genero">Tipo de comida</label>
+                    <select required id="genero">
+                        <option disabled value="">Comida</option>
+                        <option value="">Ensaladas</option>
+                        <option value="">Comidas Rapidas</option>
+                        <option value="">Menu Ejecutivo</option>
+                        <option value="">Otro</option>
+                    </select>
+                    <label for="genero">Nivel de picante</label>
+                    <select required id="genero">
+                        <option disabled value="">Picante</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select><br><br>
+                    <label for="mensaje">Instrucciones adicionales </label>
+                    <textarea name="" id="mensaje" maxlength="500"></textarea>
+                    <label for="cupon">Cupón de descuento</label>
+                    <input type="text" id="cupon" placeholder="Ingresa cupon"><br><br>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

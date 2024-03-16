@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <fieldset>
+                <fieldset>
+                    <center><h3>Festival de Musica</h3></center><hr>
+                    <label for="name">Nombre del encuestado</label>
+                    <input type="text" id="name" placeholder="Nombre" required maxlength="50">
+                    <label for="email">Correo Electrónico del encuestado</label>
+                    <input type="email" id="email" placeholder="Email"><br><br>
+                    <label for="">Edad del encuestado</label>
+                    <input type="number" required min="10" max="100"><br><br>
+                    <label for="">Sexo del encuestado</label><br>
+                    <input type="radio" id="hombre">
+                    <label for="hombre">Hombre</label><br>
+                    <input type="radio" id="mujer">
+                    <label for="mujer">Mujer</label><br><br>
+                    <label for="genero">¿Cuál es su género musical favorito?</label>
+                    <select required id="genero">
+                        <option disabled value="">Genero</option>
+                        <option value="">Pop</option>
+                        <option value="">Rock</option>
+                        <option value="">Metal</option>
+                        <option value="">Otro</option>
+                    </select>
+                    <label for="genero">¿Cuál es su artista favorito?</label>
+                    <select required id="genero">
+                        <option disabled value="">Artista</option>
+                        <option value="">AC/DC</option>
+                        <option value="">Ricky Martin</option>
+                        <option value="">Kiss</option>
+                        <option value="">Otro</option>
+                    </select><br><br>
+                    <label for="genero">¿Cuál es su canción favorita? </label>
+                    <select required id="genero">
+                        <option disabled value="">Cancion</option>
+                        <option value="">Forever</option>
+                        <option value="">Disparo al corazon</option>
+                        <option value="">Let There Be Rock</option>
+                        <option value="">Otro</option>
+                    </select>
+                    <label for="genero">¿Cuál es su instrumento musical favorito?</label>
+                    <select required id="genero">
+                        <option disabled value="">Instrumento</option>
+                        <option value="">Guitarra</option>
+                        <option value="">Piano</option>
+                        <option value="">Bajo</option>
+                        <option value="">Bateria</option>
+                        <option value="">Violin</option>
+                        <option value="">Otro</option>
+                    </select><br><br><hr>
+                    <label for="asunto">¿Desea recibir notificaciones?</label><br>
+                    <input type="radio" id="no">
+                    <label for="si">Si</label><br>
+                    <input type="radio" name="" id="no">
+                    <label for="no">No</label><br><br>
+                    <label for="asunto">¿Desea recibir promociones?</label><br>
+                    <input type="radio" id="no">
+                    <label for="si">Si</label><br>
+                    <input type="radio" name="" id="no">
+                    <label for="no">No</label><br><br>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
