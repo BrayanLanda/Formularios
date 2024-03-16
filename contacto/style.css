@@ -1,0 +1,50 @@
+
+body{
+    background: linear-gradient(72deg, rgba(67, 75, 71, 0.952) 13%, rgb(78, 85, 94) 89%);
+}
+
+main{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{
+    text-align: center;
+    color: rgb(138, 168, 205);
+}
+/* Formularios*/
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 80%;
+    background: linear-gradient(72deg, rgba(180,223,203,0.9515011547344111) 13%, rgba(83,103,127,1) 89%);
+    color: #f8e4e4;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.fieldset-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 1rem;
+    
+}
+.title-form{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffffa6;
+    text-align: right;
+}
+.fieldset-container{
+    display: flex;
+    flex-direction: column;
+    margin-top:2rem;
+    gap: 1rem;
+    border-radius: 1rem;
+    background: linear-gradient(72deg, rgba(66,125,97,0.9515011547344111) 17%, rgba(169,215,214,1) 87%);
+}
